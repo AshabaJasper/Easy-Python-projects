@@ -143,6 +143,6 @@ def cal():
 
     root.mainloop()
 
-
+#CALLING THE "CALCULATOR" FUNCTION
 if __name__ == '__main__':
     cal()
