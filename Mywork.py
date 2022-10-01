@@ -4,5 +4,6 @@ name="Rochelle"
 for i in range(3):
     print(name)
 
+ #does the same as the above   
  #range(number)
- range(startnumber,endnumber+1)
+ #range(startnumber,endnumber+1)
