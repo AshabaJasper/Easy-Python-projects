@@ -1,5 +1,5 @@
 #This code will print the name provided 3 times
-name="Rochelle"
+name="my_name"
 
 for i in range(3):
     print(name)
