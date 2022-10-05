@@ -1,5 +1,5 @@
 first_name="the_first_name"
-second_name="Jasper"
+second_name="the_second_name"
 
 print(len(first_name+second_name))
 print(first_name.capitalize())
