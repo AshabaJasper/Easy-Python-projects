@@ -1,7 +1,7 @@
 #creating a substring by extracting elements from another string
 #[start:stop:step]
 
-name="Ashaba Joshua Jasper"
+name="first_name secona_name third_name"
 
 first_name=name[0:6]
 print(first_name)
@@ -15,7 +15,7 @@ reversed_name=name[::-1]
 print(reversed_name)
 
 #slicing(::)
-name2="Ashaba Joshua Jasper"
+name2=""
 
 slice=slice(7,-4,)
 print(name2[slice])
