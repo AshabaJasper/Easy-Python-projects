@@ -15,7 +15,7 @@ reversed_name=name[::-1]
 print(reversed_name)
 
 #slicing(::)
-name2=""
+name2="first_name second_name"
 
 slice=slice(7,-4,)
 print(name2[slice])
