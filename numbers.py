@@ -6,6 +6,7 @@ a=1
 b=2
 c=3
 
+#different ways of implementing the maths module
 print(round(pi))
 print(math.pi)
 print(math.ceil(a))
