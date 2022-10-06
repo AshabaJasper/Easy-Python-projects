@@ -1,3 +1,4 @@
+#initialize teh age input
 age=int(input("Please enter your age:"))
 
 #This can be edited as:
