@@ -1,3 +1,4 @@
+#using maths functions to solve python problems
 import math
 
 pi=3.14
