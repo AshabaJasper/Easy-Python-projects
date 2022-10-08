@@ -5,5 +5,5 @@ c="3"
 print(int(c)+int(c))
 print(c*3)
 print(int(c)*3)
-
+#changing decimal to float
 print(float(a))
