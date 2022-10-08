@@ -1,5 +1,5 @@
 # Binary Search in python
-
+#using recursive method
 
 def binarySearch(array, x, low, high):
 
