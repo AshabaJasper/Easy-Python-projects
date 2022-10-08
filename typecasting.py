@@ -1,6 +1,6 @@
 #ability to change one data type to another
 a=1
-b=3.2
+b=1.232
 c="3"
 print(int(c)+int(c))
 print(c*3)
