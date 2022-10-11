@@ -1,3 +1,4 @@
+#Boolean statements
 #All these will return false
 bool(False)
 bool(None)
