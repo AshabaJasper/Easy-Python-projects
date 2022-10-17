@@ -7,6 +7,7 @@ b=2
 c=3
 
 #different ways of implementing the maths module
+#rounding off
 print(round(pi))
 print(math.pi)
 print(math.ceil(a))
