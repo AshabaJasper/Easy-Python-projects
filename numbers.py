@@ -9,8 +9,11 @@ c=3
 #different ways of implementing the maths module
 #rounding off
 print(round(pi))
+#the value of pi
 print(math.pi)
-print(math.ceil(a))
+#ceiling value of pi
+print(math.ceil(pi))
+#absolute value of pi
 print(abs(pi)) #tells you how far a number is from zero
 print(pow(2,3))
 
