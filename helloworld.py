@@ -23,7 +23,7 @@ def merge(left, right):
 
     return result
 
-
+#merge function
 def mergesort(list):
     if len(list) < 2:
         return list
