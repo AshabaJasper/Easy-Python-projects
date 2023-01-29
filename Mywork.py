@@ -4,6 +4,8 @@ name="my_name"
 for i in range(3):
     print(name)
 
+    #new update
+
  #does the same as the above   
  #range(number)
  #range(startnumber,endnumber+1)
