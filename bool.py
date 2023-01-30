@@ -7,4 +7,4 @@ bool("")
 bool(())
 bool([])
 bool({})
-#dont know what this code does tbh
+#dont know what this code does tbh will correct it
