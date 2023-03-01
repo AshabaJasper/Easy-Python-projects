@@ -5,4 +5,5 @@ age+=1
 print("Your name is "+name)
 #concantenate the age variable with the string
 print(name+", You are "+str(age)+" years old")
+#print the best way
 print(f"{name} you are {age} years old ")
