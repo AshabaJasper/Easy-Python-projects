@@ -1,4 +1,4 @@
-name=str(input("What is your name:"))
+name=str(input("What is your name:")) #will prompt the user to enter his name
 age=int(input("How old are you:"))
 #increasing the age variable
 age+=1
