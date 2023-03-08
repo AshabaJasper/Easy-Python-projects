@@ -2,7 +2,7 @@ import time
 
 # get the start time
 st = time.time()
-#new
+#new one
 # main program
 def merge(left, right):
     if not len(left) or not len(right):
