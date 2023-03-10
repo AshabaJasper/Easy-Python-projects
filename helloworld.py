@@ -4,6 +4,7 @@ import time
 st = time.time()
 #new one
 # main program
+#new one
 def merge(left, right):
     if not len(left) or not len(right):
         return left or right
