@@ -11,3 +11,4 @@ print((first_name+" ")*3)
 print("f"in first_name)
 print("resuming after a long time")
 print("Consitency is key")
+#co authored by my guy
