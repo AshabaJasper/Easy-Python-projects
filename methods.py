@@ -1,6 +1,7 @@
 first_name="the_first_name"
 second_name="the_second_name"
 
+#needs to be archived
 print(len(first_name+second_name))
 print(first_name.capitalize())
 print(first_name.upper())
