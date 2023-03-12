@@ -8,7 +8,7 @@ st = time.time()
 def merge(left, right):
     if not len(left) or not len(right):
         return left or right
-
+#please comment here
     result = []
     i, j = 0, 0
     while (len(result) < len(left) + len(right)):
