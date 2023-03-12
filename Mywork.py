@@ -4,7 +4,7 @@ name="my_name"
 for i in range(3):
     print(name)
 
-    #new update
+    #please update your repo
 
  #does the same as the above   
  #range(number)
