@@ -99,8 +99,8 @@ class BusBookingApp(tk.Tk):
         back_button = tk.Button(self, text="Back", command=self.menu_frame)
         back_button.pack()
     
-    def booking_payment_frame(self):
-        self.clear_frame()
+   # def booking_payment_frame(self):
+        #self.clear_frame()
         
-        booking_payment_label = tk.Label(self, text="Booking payment")
+       # booking_payment_label = tk.Label(self, text="Booking payment")
         #booking_payment_label.pack(pady=
