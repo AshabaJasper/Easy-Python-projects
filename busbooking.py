@@ -4,6 +4,7 @@ def three(cost):
     receipt=input("enter receipt number")
     am=True
     while am==True:
+        #add if true
         amount=int(input('enter amount to be payed'))
         if amount<cost:
             balance=cost-amount
