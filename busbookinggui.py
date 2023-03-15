@@ -98,7 +98,7 @@ class BusBookingApp(tk.Tk):
         
         back_button = tk.Button(self, text="Back", command=self.menu_frame)
         back_button.pack()
-    
+    #new
    # def booking_payment_frame(self):
         #self.clear_frame()
         
