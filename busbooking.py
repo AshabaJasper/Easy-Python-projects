@@ -1,3 +1,4 @@
+#input comments
 import random
 def three(cost):
     print("---------Booking payment--------\n")
