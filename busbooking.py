@@ -33,7 +33,7 @@ def main():
         user_name=input("enter password")
     while password != password1:#repeats the statement when wrong credentials are entered
         password=input("enter password")
-#
+
     print("-----------menu-----------\n")#this prints the menu of the bus company to the console
     print("1.Bus booking status\n2.Bus booking\n3.Booking payment\n4.Booking report\n5.Sign out")
         
