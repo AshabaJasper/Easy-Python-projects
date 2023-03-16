@@ -1,7 +1,6 @@
 name=str(input("What is your name:"))
 age=int(input("How are old you?:"))
 
-#work on this
 while not False:
     if name:
         print("Please enter your name")
