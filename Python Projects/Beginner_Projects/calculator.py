@@ -1,17 +1,22 @@
 # Simple calculator in Python
 
+#add function
 def add(x, y):
    return x + y
 
+#subtract function
 def subtract(x, y):
    return x - y
 
+#multiply function 
 def multiply(x, y):
    return x * y
 
+#division function 
 def divide(x, y):
    return x / y
 
+#choice
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
