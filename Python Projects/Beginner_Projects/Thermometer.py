@@ -6,7 +6,7 @@ class TempConverter(QWidget):
         super().__init__()
 
         self.layout = QVBoxLayout()
-
+ 
         self.tempInput = QLineEdit()
         self.unitInput = QComboBox()
         self.unitInput.addItem("C")
