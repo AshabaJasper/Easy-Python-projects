@@ -4,13 +4,23 @@ def celsius_to_fahrenheit(c):
 def fahrenheit_to_celsius(f):
     return (f - 32) * 5/9
 
-temp = float(input("Enter the temperature: "))
-unit = input("Is this temperature in Celsius or Fahrenheit (C/F): ")
+while True:
+    temp_input = input("Enter the temperature (or 'q' to quit): ")
+    
+    if temp_input.lower() == 'q':
+        break
 
-#printing the results
-if unit.upper() == "C":
-    print("Temperature in Fahrenheit:", celsius_to_fahrenheit(temp))
-elif unit.upper() == "F":
-    print("Temperature in Celsius:", fahrenheit_to_celsius(temp))
-else:
-    print("Please enter correct unit (C/F)")
+    try:
+        temp = float(temp_input)
+    except ValueError:
+        print("Invalid temperature. Please enter a number.")
+        continue
+
+    unit = input("Is this temperature in Celsius or Fahrenheit (C/F): ").upper()
+
+    if unit == "C":
+        print("Temperature in Fahrenheit:", celsius_to_fahrenheit(temp))
+    elif unit == "F":
+        print("Temperature in Celsius:", fahrenheit_to_celsius(temp))
+    else:
+        print("Please enter correct unit (C/F)")
