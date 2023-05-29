@@ -1,26 +1,48 @@
-def celsius_to_fahrenheit(c):
-    return (c * 9/5) + 32
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QLineEdit, QComboBox
+import sys
 
-def fahrenheit_to_celsius(f):
-    return (f - 32) * 5/9
+class TempConverter(QWidget):
+    def __init__(self):
+        super().__init__()
 
-while True:
-    temp_input = input("Enter the temperature (or 'q' to quit): ")
-    
-    if temp_input.lower() == 'q':
-        break
+        self.layout = QVBoxLayout()
 
-    try:
-        temp = float(temp_input)
-    except ValueError:
-        print("Invalid temperature. Please enter a number.")
-        continue
+        self.tempInput = QLineEdit()
+        self.unitInput = QComboBox()
+        self.unitInput.addItem("C")
+        self.unitInput.addItem("F")
+        self.resultLabel = QLabel("Result will be shown here")
+        self.convertButton = QPushButton("Convert")
+        
+        self.convertButton.clicked.connect(self.convertTemp)
 
-    unit = input("Is this temperature in Celsius or Fahrenheit (C/F): ").upper()
+        self.layout.addWidget(self.tempInput)
+        self.layout.addWidget(self.unitInput)
+        self.layout.addWidget(self.resultLabel)
+        self.layout.addWidget(self.convertButton)
 
-    if unit == "C":
-        print("Temperature in Fahrenheit:", celsius_to_fahrenheit(temp))
-    elif unit == "F":
-        print("Temperature in Celsius:", fahrenheit_to_celsius(temp))
-    else:
-        print("Please enter correct unit (C/F)")
+        self.setLayout(self.layout)
+
+    def celsius_to_fahrenheit(self, c):
+        return (c * 9/5) + 32
+
+    def fahrenheit_to_celsius(self, f):
+        return (f - 32) * 5/9
+
+    def convertTemp(self):
+        temp = float(self.tempInput.text())
+        unit = self.unitInput.currentText()
+
+        if unit == "C":
+            result = self.celsius_to_fahrenheit(temp)
+            self.resultLabel.setText(f"Temperature in Fahrenheit: {result}")
+        elif unit == "F":
+            result = self.fahrenheit_to_celsius(temp)
+            self.resultLabel.setText(f"Temperature in Celsius: {result}")
+
+app = QApplication(sys.argv)
+
+window = TempConverter()
+window.show()
+
+sys.exit(app.exec_())
