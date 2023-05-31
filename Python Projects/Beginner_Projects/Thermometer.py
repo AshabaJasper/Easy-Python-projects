@@ -4,7 +4,7 @@ import sys
 class TempConverter(QWidget):
     def __init__(self):
         super().__init__()
- 
+  
         self.layout = QVBoxLayout()
  
         self.tempInput = QLineEdit()
