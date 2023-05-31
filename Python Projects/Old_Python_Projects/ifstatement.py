@@ -1,6 +1,6 @@
 name=str(input("What is your name:"))
 age=int(input("How are old you?:"))
- 
+  
 while not False:
     #first comment
     if name:
