@@ -1,12 +1,16 @@
+#Import necessary libs
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QLineEdit, QComboBox
+#control system processes
 import sys
 
+
+#initiate a class
 class TempConverter(QWidget):
     def __init__(self):
         super().__init__()
   
         self.layout = QVBoxLayout()
- 
+    
         self.tempInput = QLineEdit()
         self.unitInput = QComboBox()
         self.unitInput.addItem("C")
