@@ -1,6 +1,6 @@
 #Import necessary libs
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QLineEdit, QComboBox
-#control system processes
+#control 
 import sys
 
 
