@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLa
 #control 
 import sys
 
-#
+
 #initiate a class
 class TempConverter(QWidget):
     def __init__(self):
